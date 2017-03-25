@@ -51,10 +51,30 @@ textarea:focus {
 }
 
 .bubble {
-  opacity: 0.2;
   border-radius: 100%;
-  border: 1px solid $off-white;
   position: absolute;
   width: 200px;
   height: 200px;
+  animation-name: stretch;
+  animation-duration: 20s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+@keyframes stretch {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.2);
+    border: 1px solid $off-white;
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(2);
+    border: 1px solid $off-white;
+  }
 }

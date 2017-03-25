@@ -14,7 +14,7 @@ class OpinionContainer extends React.Component {
   }
 
   componentWillMount() {
-    for (var i = 0; i < 5; i++){
+    for (var i = 0; i < 10; i++){
       this.bubblesNumber.push({
         top: `${Math.floor((Math.random() * 50) + 1)}%`,
         right: `${Math.floor((Math.random() * 100) + 1)}%`,
@@ -34,8 +34,6 @@ class OpinionContainer extends React.Component {
       pipiOpinion: this.generateMarkovChain(evt.target.value),
     }))
   }
-
-
 
   render(){ 
     return(
