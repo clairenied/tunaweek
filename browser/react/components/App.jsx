@@ -9,18 +9,17 @@ const App = props => {
       <Navbar/>
       <OpinionContainer/>
       <div className="container section">
-        <h2>tunaweek.net will podcast your original music for free!</h2>
-        <p>Three reasons why you should submit your music to tunaweek.net:​​</p>
+        <h2>Three reasons why you should submit your music to tunaweek.net:​​</h2>
         <ol>
-        ​​​​​  <li>More new music is more better. People need to hear your work whether they know it or not.</li>
-          <li>If folks hear your song on tunaweek.net and make it a hit, you win, we win, the audience wins, everybody wins.</li>
-          <li>It&#8217;s fun.</li>
+        ​​​​​  <li><span>More new music is better. People need to hear your work whether they know it or not.</span></li>
+          <li><span>If folks hear your song on tunaweek.net and make it a hit, you win, we win, the audience wins, everybody wins.</span></li>
+          <li><span>It&#8217;s fun.</span></li>
         </ol>
         <p>Beginning in April, you&#8217;ll be able to download the tunaweek podcast through iTunes, Google Play and Podcast Republic. Yay! Until then, please submit downloadable links or MP3s of your tunes to: tunaweek.net@gmail.com.
         </p>
       </div>
       <div className="container section">
-        <h2>Questions?</h2>
+        <h2>Other frequently asked questions:</h2>
 
         <div className="rule"/>
         <div className="sub-section">
@@ -49,7 +48,7 @@ const App = props => {
         <div className="rule"/>
         <div className="sub-section">
           <h3>Who&#8217;s this PIPI?</h3>
-          <p>PIPI&#8217;s (or Podcast Intelligence Programmed Irresponsibly) is our resident AI.​​​</p>
+          <p>PIPI (or Podcast Intelligence Programmed Irresponsibly) is our resident 'AI'.​</p>
         </div>
       </div>
 

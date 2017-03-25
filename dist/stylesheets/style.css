@@ -6,10 +6,10 @@ textarea {
   width: 100%;
   height: 6rem;
   background-color: #f2f2f2;
-  color: #2d7a73;
   border: none;
   font-size: 1.5rem;
-  font-weight: 500; }
+  font-weight: 400;
+  margin: 1.5rem 0 1.5rem 0; }
 
 textarea:focus {
   outline: none; }
@@ -22,7 +22,7 @@ textarea:focus {
 .cover {
   background-color: #89d6cf;
   height: 100%;
-  padding: calc(6rem * 1.5) 0 calc(6rem * 1.25) 0;
+  padding: calc(6rem * 1.5) 0 3rem 0;
   min-height: 50vh;
   text-align: center; }
 
@@ -41,6 +41,14 @@ textarea:focus {
   height: 3px;
   background: #edda4e; }
 
+.bubble {
+  opacity: 0.2;
+  border-radius: 100%;
+  border: 1px solid #f2f2f2;
+  position: absolute;
+  width: 200px;
+  height: 200px; }
+
 .navbar {
   background-color: #89d6cf;
   position: fixed;
@@ -54,7 +62,7 @@ textarea:focus {
   line-height: 0.75rem; }
   .navbar a {
     color: inherit;
-    border-bottom: 3px dotted #ed8787;
+    border-bottom: 3px dotted #f4424b;
     font-weight: 500;
     text-decoration: none;
     line-height: 0.75rem; }
@@ -97,3 +105,18 @@ a {
 
 p, li {
   font-size: 1.5rem; }
+
+ol {
+  padding: 0;
+  margin: 0 0 3rem -0.75rem; }
+
+li {
+  list-style-position: outside;
+  padding-left: 0.75rem;
+  color: #89d6cf;
+  font-weight: 800;
+  font-size: 1.5rem; }
+
+li span {
+  color: #3f3f3f;
+  font-weight: 400; }

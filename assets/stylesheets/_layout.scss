@@ -7,10 +7,10 @@ textarea {
   width: 100%;
   height: $xl;
   background-color: $off-white;
-  color: $dark-teal;
   border: none;
   font-size: $md;
-  font-weight: 500;
+  font-weight: 400;
+  margin: $md 0 $md 0;
 }
 
 textarea:focus {
@@ -26,7 +26,7 @@ textarea:focus {
 .cover {
   background-color: $light-teal;
   height: 100%;
-  padding: calc(#{$xl} * 1.5) 0 calc(#{$xl} * 1.25) 0;
+  padding: calc(#{$xl} * 1.5) 0 $lg 0;
   min-height: 50vh;
   text-align: center;
 }
@@ -48,4 +48,13 @@ textarea:focus {
   width: $xl;
   height: 3px;
   background: $mustard;
+}
+
+.bubble {
+  opacity: 0.2;
+  border-radius: 100%;
+  border: 1px solid $off-white;
+  position: absolute;
+  width: 200px;
+  height: 200px;
 }
