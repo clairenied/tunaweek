@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 
 const Navbar = props => {
   return(
-    <div>
-      <a>Tunaweek</a><br/>
-      <a href="tunaweek.net@gmail.com">Contact Us</a>
+    <div className="navbar">
+      <p>Tunaweek</p>
+      <p><a href="mailto:tunaweek.net@gmail.com">Contact Us</a></p>
     </div>
   )
 }

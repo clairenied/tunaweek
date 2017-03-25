@@ -1,0 +1,51 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+textarea {
+  width: 100%;
+  height: $xl;
+  background-color: $off-white;
+  color: $dark-teal;
+  border: none;
+  font-size: $md;
+  font-weight: 500;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 720px;
+  min-width: 420px;
+  margin: 0 auto;
+}
+
+.cover {
+  background-color: $light-teal;
+  height: 100%;
+  padding: calc(#{$xl} * 1.5) 0 calc(#{$xl} * 1.25) 0;
+  min-height: 50vh;
+  text-align: center;
+}
+
+.section {
+  padding: $md 0 0 0;
+  h2 {
+    color: $dark-teal;
+  }
+}
+
+.sub-section {
+  padding: $sm 0 0 0;
+  margin: 0 0 $lg 0;
+  position: relative;
+}
+
+.rule {
+  width: $xl;
+  height: 3px;
+  background: $mustard;
+}
