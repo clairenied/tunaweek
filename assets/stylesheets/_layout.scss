@@ -1,0 +1,82 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+textarea {
+  width: 100%;
+  height: $xl;
+  background-color: $off-white;
+  border: none;
+  font-size: $md;
+  font-weight: 400;
+  margin: $md 0 $md 0;
+  z-index: 98;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 720px;
+  min-width: 420px;
+  margin: 0 auto;
+}
+
+.cover {
+  background-color: $light-teal;
+  height: 100%;
+  padding: calc(#{$xl} * 1.5) 0 $lg 0;
+  min-height: 50vh;
+  text-align: center;
+}
+
+.section {
+  padding: $md 0 0 0;
+  h2 {
+    color: $dark-teal;
+  }
+}
+
+.sub-section {
+  padding: $sm 0 0 0;
+  margin: 0 0 $lg 0;
+  position: relative;
+}
+
+.rule {
+  width: $xl;
+  height: 3px;
+  background: $mustard;
+}
+
+.bubble {
+  border-radius: 100%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  animation-name: stretch;
+  animation-duration: 20s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  pointer-events: none;
+}
+
+
+@keyframes stretch {
+  0% {
+    opacity: 0.7;
+    transform: scale(0.2);
+    border: 1px solid $off-white;
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(2);
+    border: 1px solid $off-white;
+  }
+}

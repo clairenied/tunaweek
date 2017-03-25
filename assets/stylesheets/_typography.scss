@@ -1,0 +1,59 @@
+html {
+  font-family: 'Work Sans', sans-serif;
+  color: $dark-gray;
+}
+
+h1 {
+  font-size: $lg;
+  line-height: $lg;
+}
+
+h2 {
+  font-size: $lg;
+  line-height: $lg;
+}
+
+h3 {
+  font-size: $md;
+  line-height: $md;
+  color: $dark-teal;  
+}
+
+h4 {
+  font-size: $sm;
+  line-height: $sm;
+  color: $dark-teal;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+a {
+  color: $dark-teal;
+  text-decoration: none;
+  border-bottom: 3px dotted $dark-teal;
+  font-size: inherit;
+}
+
+p, li {
+  font-size: $md;
+}
+
+ol {
+  padding: 0;
+  margin: 0 0 $lg -0.75rem;
+}
+
+li {
+  list-style-position: outside;
+  padding-left: $sm;
+  color: $light-teal;
+  font-weight: 800;
+  font-size: $md;
+}
+
+li span {
+  color: $dark-gray;
+  font-weight: 400;
+}
