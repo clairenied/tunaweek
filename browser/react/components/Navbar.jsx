@@ -1,7 +1,10 @@
+import React, { Component } from 'react'
+
 const Navbar = props => {
   return(
     <div>
-      <OpinionContainer/>
+      <a>Tunaweek</a><br/>
+      <a href="tunaweek.net@gmail.com">Contact Us</a>
     </div>
   )
 }

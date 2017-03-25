@@ -6,6 +6,7 @@ import OpinionContainer from '../containers/OpinionContainer.jsx'
 const App = props => {
   return(
     <div>
+      <Navbar/>
       <OpinionContainer/>
       <div>
         <p>Beginning in April tunaweek.net will podcast your original music for free!</p>
@@ -26,7 +27,7 @@ const App = props => {
 
         <h3>What exactly is tunaweek.net looking for?</h3>
         <p>Anything and everything -- as long as it&#8217;s original. There are clever songwriters and songwriting geniuses out there and people need to hear you! Even if you submit something you think just might stink, our crack team of musicians, engineers and producers will make it smell and sound sweet. Sweet!</p>
-​
+
         <h3>Wait, when tunaweek.net says they&#8217;ll podcast anything and everything people submit, is that for real?</h3>
         <p>Yes. Send us finished songs, unfinished songs, lyrics with no music or vice-versa, poems, stories, interviews, snippets, found sounds, sketches, photos... anything you think of as a song or anything you believe should be a song. Whatever it is, we&#8217;ll podcast it -- although we may edit the hell out of it first.</p>
 
@@ -36,6 +37,9 @@ const App = props => {
         <h3>Who&#8217;s this PIPI?</h3>
         <p>PIPI&#8217;s (or Podcast Intelligence Programmed Irresponsibly) is our resident AI.​​​</p>
       </div>
+
+      <p>Please send further questions, comments and songs or songs-to-be to tunaweek.net@gmail.com​​.</p>
+      <h3>Thanks!</h3>
     </div>
   )
 }
